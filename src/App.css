@@ -33,6 +33,11 @@ body {
   background-color: antiquewhite;
 }
 
+#projects {
+  /*background-image: url("background.png");*/
+  background-color: antiquewhite;
+}
+
 #my_name {
   margin-top: 50px;
   margin-bottom: 50px;
@@ -153,5 +158,14 @@ body {
 }
 
 .course_list {
+  font-size: 24px;
+}
+
+.project_container {
+  margin: auto;
+  padding: 4px;
+  background-color: white;
+  width: 80%;
+  border-radius: 10px;
   font-size: 24px;
 }

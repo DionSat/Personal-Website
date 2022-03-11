@@ -1,6 +1,4 @@
 import React from "react";
-import my_image from "../Images/me.jpg";
-import hello_prog from "../Images/Hello.png";
 import pcc_logo from "../Images/PCC.png";
 import psu_logo from "../Images/PSU.jpg";
 import { Container } from "react-bootstrap";
