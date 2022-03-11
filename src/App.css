@@ -114,41 +114,44 @@ body {
   margin: auto;
   padding: 4px;
   background-color: white;
-  width: 35%;
-  height: 400px;
+  width: 30%;
+  height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
-  margin-right: 5%;
 }
 
 .scroll-courseinfo {
   margin: auto;
   padding: 4px;
   background-color: white;
-  width: 35%;
-  height: 400px;
+  width: 30%;
+  height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
-  margin-left: 5%;
 }
 
 .education_title {
   border-bottom: 1px solid #e0e0e0;
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 
 .skill_container {
   margin: auto;
-  margin-top: 50px;
   padding: 4px;
   background-color: white;
-  width: 35%;
-  height: 400px;
+  width: 30%;
+  height: 500px;
   overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
-  margin-left: 5%;
+  font-size: 24px;
+}
+
+.checked {
+  color: orange;
+}
+
+.course_list {
+  font-size: 24px;
 }
