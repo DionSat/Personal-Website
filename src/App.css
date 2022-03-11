@@ -1,0 +1,154 @@
+:root {
+  --off-white: #fafafa;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  padding-top: 55px;
+  height: 100vh;
+  width: 100vw;
+  /*background-attachment: fixed;*/
+  /*background-image: url("background.png");*/
+}
+
+#welcome {
+  background-image: url("Images/background.png");
+}
+
+#welcome_container {
+  width: 30%;
+  background-color: #fafafa;
+  background-size: cover;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+#experience {
+  /*background-image: url("background.png");*/
+  background-color: antiquewhite;
+}
+
+#my_name {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #7afb4c;
+}
+
+#my_intro {
+  width: 600px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-family: Comic Sans MS;
+}
+
+#my_image {
+  border-radius: 40%;
+  margin-bottom: 20px;
+}
+
+.terminal {
+  border-radius: 5px 5px 0 0;
+  position: relative;
+}
+.terminal .top {
+  background: #e8e6e8;
+  color: black;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+}
+.terminal .btns {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.terminal .circle {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 15px;
+  margin-left: 2px;
+  border-width: 1px;
+  border-style: solid;
+}
+.title {
+  text-align: center;
+}
+.red {
+  background: #ec6a5f;
+  border-color: #d04e42;
+}
+.green {
+  background: #64cc57;
+  border-color: #4ea73b;
+}
+.yellow {
+  background: #f5c04f;
+  border-color: #d6a13d;
+}
+.clear {
+  clear: both;
+}
+.terminal .body {
+  background: black;
+  color: #7afb4c;
+  padding: 8px;
+  overflow: auto;
+  margin-bottom: 0;
+}
+.space {
+  margin: 25px;
+}
+.shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.scroll-bginfo {
+  margin: auto;
+  padding: 4px;
+  background-color: white;
+  width: 35%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-right: 5%;
+}
+
+.scroll-courseinfo {
+  margin: auto;
+  padding: 4px;
+  background-color: white;
+  width: 35%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-left: 5%;
+}
+
+.education_title {
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.skill_container {
+  margin: auto;
+  margin-top: 50px;
+  padding: 4px;
+  background-color: white;
+  width: 35%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-left: 5%;
+}
