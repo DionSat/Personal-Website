@@ -8,7 +8,7 @@ export default function Welcome({ id }) {
     <div
       id={id}
       className='h-100 w-100 d-flex flex-column align-items-center justify-content-center'>
-      <div className='terminal space shadow'>
+      <div className='terminal space shadow w-50'>
         <div className='top'>
           <div className='btns'>
             <span className='circle red'></span>
@@ -27,7 +27,7 @@ export default function Welcome({ id }) {
             width='250'
             height='250'
           />
-          <p>
+          <p className='text-wrap'>
             {">"} Hello, I'm a current graduate student at PSU. Pursuing
             interests in webdevelopment, databases and machine learning. I have
             no professional experience but i do the same :)

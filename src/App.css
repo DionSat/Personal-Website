@@ -16,7 +16,7 @@ body {
 }
 
 #welcome {
-  background-image: url("Images/background.png");
+  background-color: antiquewhite;
 }
 
 #welcome_container {
@@ -35,6 +35,10 @@ body {
 
 #projects {
   /*background-image: url("background.png");*/
+  background-color: antiquewhite;
+}
+
+#contactme {
   background-color: antiquewhite;
 }
 
@@ -163,9 +167,52 @@ body {
 
 .project_container {
   margin: auto;
-  padding: 4px;
   background-color: white;
-  width: 80%;
+  width: 25%;
   border-radius: 10px;
   font-size: 24px;
+}
+
+.my_projects {
+  width: 100%;
+}
+
+.deck_desc {
+  font-size: 18px;
+}
+
+.deck-info {
+  font-size: 20px;
+}
+
+.button_image {
+  height: 60px;
+  width: 60px;
+}
+
+.git_button {
+  background-color: #f8f8f8;
+  border-left: 1px solid black;
+  border-right: 5px solid black;
+  width: 50%;
+}
+
+.visit_button {
+  background-color: #f8f8f8;
+  border-right: 1px solid black;
+  border-left: 5px solid black;
+  width: 50%;
+  height: 74px;
+}
+
+.project_header {
+}
+
+.form_container {
+  width: 90%;
+  background-color: white;
+}
+
+.my_form {
+  width: 100%;
 }

@@ -13,6 +13,7 @@ import Welcome from "./Components/Welcome.jsx";
 import Navigation from "./Components/Navigation.jsx";
 import Experience from "./Components/Experience.jsx";
 import Projects from "./Components/Projects.jsx";
+import ContactMe from "./Components/ContactMe.jsx";
 import "./App.css";
 
 const styles = {
@@ -28,6 +29,7 @@ class App extends React.Component {
         <Welcome id='welcome' />
         <Experience id='experience' />
         <Projects id='projects' />
+        <ContactMe id='contactme' />
       </div>
     );
   }
