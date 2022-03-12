@@ -28,25 +28,39 @@ export default function ContactMe({ id }) {
   return (
     <Container
       fluid
-      className='w-100 h-100 d-flex align-items-center justify-content-center'
+      className='h-100 row d-flex align-items-center justify-content-center'
       id={id}>
-      <div className='form_container'>
-        <form onSubmit={handleSubmit} className='my_form'>
-          <div>
-            <label htmlFor='name'>Name:</label>
-            <input type='text' id='name' required />
-          </div>
-          <div>
-            <label htmlFor='email'>Email:</label>
-            <input type='email' id='email' required />
-          </div>
-          <div>
-            <label htmlFor='message'>Message:</label>
-            <textarea id='message' required />
-          </div>
-          <button type='submit'>{status}</button>
-        </form>
-      </div>
+      <form className='text-center border border-light p-5' action='#!'>
+        <p className='h4 mb-4'>Contact Me</p>
+
+        <input
+          type='text'
+          id='defaultContactFormName'
+          className='form-control mb-4'
+          placeholder='Name'
+        />
+
+        <input
+          type='email'
+          id='defaultContactFormEmail'
+          className='form-control mb-4'
+          placeholder='E-mail'
+        />
+
+        <div class='form-group'>
+          <textarea
+            className='form-control rounded-0'
+            id='exampleFormControlTextarea2'
+            rows='3'
+            placeholder='Message'></textarea>
+        </div>
+
+        <button
+          className='btn btn-info btn-block send_button mt-3'
+          type='submit'>
+          Send
+        </button>
+      </form>
     </Container>
   );
 }

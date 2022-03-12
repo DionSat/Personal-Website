@@ -208,11 +208,6 @@ body {
 .project_header {
 }
 
-.form_container {
-  width: 90%;
-  background-color: white;
-}
-
-.my_form {
+.send_button {
   width: 100%;
 }
