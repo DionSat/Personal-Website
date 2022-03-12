@@ -26,41 +26,40 @@ export default function ContactMe({ id }) {
     alert(result.status);
   };
   return (
-    <Container
-      fluid
-      className='h-100 row d-flex align-items-center justify-content-center'
-      id={id}>
-      <form className='text-center border border-light p-5' action='#!'>
-        <p className='h4 mb-4'>Contact Me</p>
+    <Container fluid className='h-100 d-flex align-items-center' id={id}>
+      <div className='w-100 h-100 row d-flex align-items-center'>
+        <form className='text-center border border-light p-5' action='#!'>
+          <p className='h4 mb-4'>Contact Me</p>
 
-        <input
-          type='text'
-          id='defaultContactFormName'
-          className='form-control mb-4'
-          placeholder='Name'
-        />
+          <input
+            type='text'
+            id='defaultContactFormName'
+            className='form-control mb-4'
+            placeholder='Name'
+          />
 
-        <input
-          type='email'
-          id='defaultContactFormEmail'
-          className='form-control mb-4'
-          placeholder='E-mail'
-        />
+          <input
+            type='email'
+            id='defaultContactFormEmail'
+            className='form-control mb-4'
+            placeholder='E-mail'
+          />
 
-        <div class='form-group'>
-          <textarea
-            className='form-control rounded-0'
-            id='exampleFormControlTextarea2'
-            rows='3'
-            placeholder='Message'></textarea>
-        </div>
+          <div class='form-group'>
+            <textarea
+              className='form-control rounded-0'
+              id='exampleFormControlTextarea2'
+              rows='3'
+              placeholder='Message'></textarea>
+          </div>
 
-        <button
-          className='btn btn-info btn-block send_button mt-3'
-          type='submit'>
-          Send
-        </button>
-      </form>
+          <button
+            className='btn btn-info btn-block send_button mt-3'
+            type='submit'>
+            Send
+          </button>
+        </form>
+      </div>
     </Container>
   );
 }

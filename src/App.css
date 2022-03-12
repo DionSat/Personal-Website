@@ -3,14 +3,13 @@
 }
 
 html {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 body {
   padding-top: 55px;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
   /*background-attachment: fixed;*/
   /*background-image: url("background.png");*/
 }
@@ -121,22 +120,24 @@ body {
 
 .scroll-bginfo {
   margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
   padding: 4px;
   background-color: white;
-  width: 30%;
+  max-width: 600px;
   height: 500px;
-  overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
 }
 
 .scroll-courseinfo {
-  margin: auto;
   padding: 4px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
   background-color: white;
-  width: 30%;
+  max-width: 600px;
   height: 500px;
-  overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
 }
@@ -146,12 +147,13 @@ body {
 }
 
 .skill_container {
-  margin: auto;
   padding: 4px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
   background-color: white;
-  width: 30%;
+  max-width: 600px;
   height: 500px;
-  overflow-x: hidden;
   overflow-y: auto;
   border-radius: 10px;
   font-size: 24px;
@@ -166,9 +168,12 @@ body {
 }
 
 .project_container {
+  padding: 4px;
   margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
   background-color: white;
-  width: 25%;
+  max-width: 600px;
   border-radius: 10px;
   font-size: 24px;
 }

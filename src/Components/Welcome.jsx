@@ -7,7 +7,7 @@ export default function Welcome({ id }) {
   return (
     <div
       id={id}
-      className='h-100 w-100 d-flex flex-column align-items-center justify-content-center'>
+      className='h-100 d-flex flex-column align-items-center justify-content-center'>
       <div className='terminal space shadow w-50'>
         <div className='top'>
           <div className='btns'>
