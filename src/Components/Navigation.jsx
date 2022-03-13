@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import logo from "../Images/logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
 export default class Navigation extends Component {
   scrollToTop = () => {
@@ -17,31 +16,55 @@ export default class Navigation extends Component {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='me-auto'>
               <Link
-                activeClass='active'
+                activeStyle={{
+                  fontWeight: "bold",
+                  color: "red",
+                }}
+                className='p-1'
                 to='welcome'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}>
-                Home
+                <button type='button' className='btn btn-light'>
+                  Home
+                </button>
               </Link>
               <Link
                 activeClass='active'
                 to='experience'
+                className='p-1'
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}>
-                Background
+                <button type='button' className='btn btn-light'>
+                  Background
+                </button>
               </Link>
               <Link
                 activeClass='active'
                 to='projects'
+                className='p-1'
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={100}
                 duration={500}>
-                Projects
+                <button type='button' className='btn btn-light'>
+                  Projects
+                </button>
+              </Link>
+              <Link
+                activeClass='active'
+                to='contactme'
+                className='p-1'
+                spy={true}
+                smooth={true}
+                offset={100}
+                duration={500}>
+                <button type='button' className='btn btn-light'>
+                  Contact Me
+                </button>
               </Link>
             </Nav>
           </Navbar.Collapse>
