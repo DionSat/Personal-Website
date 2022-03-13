@@ -10,6 +10,11 @@ export default function Experience({ id }) {
       className='d-flex align-items-center justify-content-center'
       id={id}>
       <Row className='d-flex flex-row align-items-center justify-content-center'>
+        <Col sm={12}>
+          <h1 className='display-5 project_header d-flex justify-content-center'>
+            Experience
+          </h1>
+        </Col>
         <Col xs={12} xxl={4} xl={6}>
           <div className='scroll-bginfo'>
             <h1 className='education_title pb-3 text-center'>Education</h1>

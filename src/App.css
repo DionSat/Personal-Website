@@ -30,11 +30,15 @@ body {
 #experience {
   /*background-image: url("background.png");*/
   background-color: antiquewhite;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 
 #projects {
   /*background-image: url("background.png");*/
   background-color: antiquewhite;
+  padding-bottom: 10%;
+  padding-top: 10%;
 }
 
 #contactme {

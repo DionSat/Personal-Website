@@ -27,11 +27,13 @@ export default function Welcome({ id }) {
             width='250'
             height='250'
           />
-          <p className='text-wrap'>
-            {">"} Hello, I'm a current graduate student at PSU. Pursuing
-            interests in webdevelopment, databases and machine learning. I have
-            no professional experience but i do the same :)
-          </p>
+          <div className='text_intro'>
+            <p class='typing text-wrap'>
+              {"> "}Hello, I'm a current graduate student at PSU. Pursuing
+              interests in webdevelopment,databases and machine learning. I have
+              no professional experience but i do the same :)
+            </p>
+          </div>
         </pre>
       </div>
     </div>
