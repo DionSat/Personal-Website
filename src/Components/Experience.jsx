@@ -23,6 +23,7 @@ export default function Experience({ id }) {
                 <img
                   src={psu_logo}
                   className='psu-logo'
+                  alt='Portland State University'
                   width='100'
                   height='100'></img>
                 <h2 className='education_text d-flex align-items-center'>
@@ -57,6 +58,7 @@ export default function Experience({ id }) {
                 <img
                   src={psu_logo}
                   className='psu-logo'
+                  alt='Portland State University'
                   width='100'
                   height='100'></img>
                 <h2 className='education_text d-flex align-items-center'>
@@ -86,6 +88,7 @@ export default function Experience({ id }) {
                 <img
                   src={pcc_logo}
                   className='pcc-logo'
+                  alt='Portland Community College'
                   width='100'
                   height='100'></img>
                 <h2 className='education_text d-flex align-items-center'>
@@ -146,23 +149,23 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
                 Java
               </div>
               <div>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
                 Python
               </div>
               <div>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 Javascript
               </div>
@@ -170,7 +173,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 HTML/CSS
               </div>
@@ -178,7 +181,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 Microsoft Word
               </div>
@@ -186,7 +189,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 Laravel/PHP
               </div>
@@ -194,7 +197,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 Project Management
               </div>
@@ -202,7 +205,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 React
               </div>

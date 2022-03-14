@@ -1,5 +1,3 @@
-import pcc_logo from "../Images/PCC.png";
-import psu_logo from "../Images/PSU.jpg";
 import { Container } from "react-bootstrap";
 import React, { useState } from "react";
 

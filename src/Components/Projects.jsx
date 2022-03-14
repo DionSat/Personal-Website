@@ -1,5 +1,4 @@
 import React from "react";
-import pcc_logo from "../Images/PCC.png";
 import water_image from "../Images/water.png";
 import deck_image from "../Images/blackjack.png";
 import git_logo from "../Images/github.png";
@@ -21,6 +20,7 @@ export default function Projects({ id }) {
               <img
                 src={water_image}
                 className='water-image'
+                alt='water reuse application'
                 width='100%'
                 height='100%'></img>
               <h2 className='pt-4'>Water Reuse Application</h2>
@@ -50,6 +50,7 @@ export default function Projects({ id }) {
                   <img
                     className='button_image'
                     src={git_logo}
+                    alt='GitHub'
                     width='90'
                     height='90'
                   />
@@ -64,6 +65,7 @@ export default function Projects({ id }) {
               <img
                 src={deck_image}
                 className='deck-image'
+                alt='deck of cards'
                 width='100%'
                 height='100%'></img>
               <h2 className='pt-4 display-6'>Deck of Cards Blackjack</h2>
@@ -92,6 +94,7 @@ export default function Projects({ id }) {
                   <img
                     className='button_image'
                     src={git_logo}
+                    alt='GitHub'
                     width='90'
                     height='90'
                   />

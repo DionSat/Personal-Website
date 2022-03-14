@@ -1,7 +1,5 @@
 import React from "react";
 import my_image from "../Images/me.jpg";
-import hello_prog from "../Images/Hello.png";
-import { Container } from "react-bootstrap";
 
 export default function Welcome({ id }) {
   return (
