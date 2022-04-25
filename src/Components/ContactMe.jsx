@@ -31,14 +31,14 @@ export default function ContactMe({ id }) {
 
           <input
             type='text'
-            id='defaultContactFormName'
+            id='name'
             className='form-control mb-4'
             placeholder='Name'
           />
 
           <input
             type='email'
-            id='defaultContactFormEmail'
+            id='email'
             className='form-control mb-4'
             placeholder='E-mail'
           />
@@ -46,7 +46,7 @@ export default function ContactMe({ id }) {
           <div class='form-group'>
             <textarea
               className='form-control rounded-0'
-              id='exampleFormControlTextarea2'
+              id='message'
               rows='3'
               placeholder='Message'></textarea>
           </div>
