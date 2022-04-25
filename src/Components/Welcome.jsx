@@ -28,7 +28,7 @@ export default function Welcome({ id }) {
           <div className='text_intro'>
             <p class='typing text-wrap'>
               {"> "}Hello, I'm a current graduate student at PSU. Pursuing
-              interests in webdevelopment,databases and machine learning. 
+              interests in webdevelopment,databases and machine learning.
             </p>
           </div>
         </pre>
