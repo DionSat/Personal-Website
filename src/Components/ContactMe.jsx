@@ -1,54 +1,56 @@
 import { Container } from "react-bootstrap";
 import React, { useState } from "react";
+import emailjs from "emailjs-com";
 
 export default function ContactMe({ id }) {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
+  function sendEmail(e) {
     e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
+    emailjs.sendForm('website-gmail', 'form-template', e.target, '7sGMtnHoFUANK8-uz')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset();
+  }
+
   return (
     <Container fluid className='h-100 d-flex align-items-center' id={id}>
       <div className='w-100 h-100 row d-flex align-items-center'>
-        <form className='text-center border border-light p-5' action='#!'>
+        <form className='text-center border border-light p-5' onSubmit={sendEmail}>
           <p className='h4 mb-4'>Contact Me</p>
 
           <input
             type='text'
-            id='defaultContactFormName'
+            id='name'
             className='form-control mb-4'
             placeholder='Name'
+            name="name"
           />
 
           <input
             type='email'
-            id='defaultContactFormEmail'
+            id='email'
             className='form-control mb-4'
             placeholder='E-mail'
+            name="email"
+          />
+
+          <input
+            type='text'
+            id='subject'
+            className='form-control mb-4'
+            placeholder='Subject'
+            name="subject"
           />
 
           <div class='form-group'>
             <textarea
               className='form-control rounded-0'
-              id='exampleFormControlTextarea2'
-              rows='3'
-              placeholder='Message'></textarea>
+              id='message'
+              rows='15'
+              placeholder='Message'
+              name="message"></textarea>
           </div>
 
           <button
