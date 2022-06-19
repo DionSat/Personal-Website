@@ -1,6 +1,6 @@
 # Personal-Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal website that I built to present myself.
 
 To run the application be sure to install dependencies before running the application. 
 Download the repository and run 
