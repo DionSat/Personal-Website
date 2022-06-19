@@ -75,7 +75,8 @@ export default function Projects({ id }) {
               </p>
               <p className='deck_info pt-4'>
                 A deck of cards simulator that uses an open source API that
-                simulates a deck to play games. Right now can play the game of
+                simulates a deck to play games. We use that deck to simulate 
+                game rules using javascript. Right now can play the game of
                 blackjack.
               </p>
               <div className='w-100 d-flex align-items-center justify-content-center'>
