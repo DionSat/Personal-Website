@@ -33,6 +33,7 @@ export default function Experience({ id }) {
               <a
                 href='https://www.pdx.edu/'
                 target='_blank'
+                rel='noreferrer'
                 className='text-decoration-none d-flex justify-content-center mb-3'>
                 Portland State University
               </a>
@@ -68,6 +69,7 @@ export default function Experience({ id }) {
               <a
                 href='https://www.pdx.edu/'
                 target='_blank'
+                rel='noreferrer'
                 className='text-decoration-none d-flex justify-content-center mb-3'>
                 Portland State University
               </a>
@@ -98,6 +100,7 @@ export default function Experience({ id }) {
               <a
                 href='https://www.pcc.edu/'
                 target='_blank'
+                rel='noreferrer'
                 className='text-decoration-none d-flex justify-content-center mb-3'>
                 Portland Community College
               </a>

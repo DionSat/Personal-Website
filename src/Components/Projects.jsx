@@ -36,17 +36,18 @@ export default function Projects({ id }) {
                 channels it sources from and ends up.
               </p>
               <div className='w-100 d-flex align-items-center justify-content-center'>
-                <a
+                {/* <a
                   className='btn visit_button d-flex align-items-center justify-content-center'
                   href='https://www.waterreuseapp.org/'
                   target='_blank'
                   role='button'>
                   Visit Here
-                </a>
+                </a> */}
                 <a
                   className='btn git_button d-flex align-items-center justify-content-center'
                   href='https://github.com/DionSat/Water-Reuse-App'
                   target='_blank'
+                  rel='noreferrer'
                   role='button'>
                   <img
                     className='button_image'
@@ -85,6 +86,7 @@ export default function Projects({ id }) {
                   className='btn visit_button d-flex align-items-center justify-content-center'
                   href='https://deck-of-card-blackjack.herokuapp.com/'
                   target='_blank'
+                  rel='noreferrer'
                   role='button'>
                   Visit Here
                 </a>
@@ -92,6 +94,7 @@ export default function Projects({ id }) {
                   className='btn git_button d-flex align-items-center justify-content-center'
                   href='https://github.com/DionSat/Deck-Of-Cards'
                   target='_blank'
+                  rel='noreferrer'
                   role='button'>
                   <img
                     className='button_image'
@@ -132,6 +135,7 @@ export default function Projects({ id }) {
                   className='btn git_button d-flex align-items-center justify-content-center'
                   href='https://github.com/DionSat/trivia_application'
                   target='_blank'
+                  rel='noreferrer'
                   role='button'>
                   <img
                     className='button_image'
