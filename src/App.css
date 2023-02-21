@@ -2,7 +2,7 @@
   --off-white: #fafafa;
 }
 
-html {
+#render-page {
   height: 100%;
   overflow-y: scroll;
 }
@@ -10,8 +10,6 @@ html {
 body {
   padding-top: 55px;
   height: 100%;
-  /*background-attachment: fixed;*/
-  /*background-image: url("background.png");*/
 }
 
 #welcome {
@@ -28,17 +26,15 @@ body {
 }
 
 #experience {
-  /*background-image: url("background.png");*/
   background-color: antiquewhite;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-top: 20%;
 }
 
 #projects {
-  /*background-image: url("background.png");*/
   background-color: antiquewhite;
-  padding-bottom: 10%;
-  padding-top: 10%;
+  padding-bottom: 20%;
+  padding-top: 20%;
 }
 
 #contactme {
@@ -70,17 +66,20 @@ body {
   border-radius: 5px 5px 0 0;
   position: relative;
 }
+
 .terminal .top {
   background: #e8e6e8;
   color: black;
   padding: 5px;
   border-radius: 5px 5px 0 0;
 }
+
 .terminal .btns {
   position: absolute;
   top: 7px;
   left: 5px;
 }
+
 .terminal .circle {
   width: 12px;
   height: 12px;
@@ -90,24 +89,30 @@ body {
   border-width: 1px;
   border-style: solid;
 }
+
 .title {
   text-align: center;
 }
+
 .red {
   background: #ec6a5f;
   border-color: #d04e42;
 }
+
 .green {
   background: #64cc57;
   border-color: #4ea73b;
 }
+
 .yellow {
   background: #f5c04f;
   border-color: #d6a13d;
 }
+
 .clear {
   clear: both;
 }
+
 .terminal .body {
   background: black;
   color: #7afb4c;
@@ -115,9 +120,11 @@ body {
   overflow: auto;
   margin-bottom: 0;
 }
+
 .space {
   margin: 25px;
 }
+
 .shadow {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
 }
@@ -220,9 +227,6 @@ body {
 
 .visit_button:hover {
   background-color: rgb(161, 236, 236);
-}
-
-.project_header {
 }
 
 .send_button {

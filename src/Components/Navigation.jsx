@@ -38,7 +38,7 @@ export default class Navigation extends Component {
                 className='p-1'
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={300}
                 duration={500}>
                 <button type='button' className='btn btn-light'>
                   Background
@@ -50,7 +50,7 @@ export default class Navigation extends Component {
                 className='p-1'
                 spy={true}
                 smooth={true}
-                offset={100}
+                offset={300}
                 duration={500}>
                 <button type='button' className='btn btn-light'>
                   Projects

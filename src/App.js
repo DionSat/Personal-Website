@@ -6,15 +6,10 @@ import Projects from "./Components/Projects.jsx";
 import ContactMe from "./Components/ContactMe.jsx";
 import "./App.css";
 
-const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center",
-};
-
 class App extends React.Component {
   render() {
     return (
-      <div className='h-100'>
+      <div className='h-100 render-page'>
         <Navigation />
         <Welcome id='welcome' />
         <Experience id='experience' />
