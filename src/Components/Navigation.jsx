@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import linkedin_logo from "../Images/linkedin.png";
+import git_logo from "../Images/github.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
@@ -68,6 +70,34 @@ export default class Navigation extends Component {
                   Contact Me
                 </button>
               </Link>
+              <a
+                  className='btn linkedin-link d-flex align-items-center justify-content-center'
+                  href='https://www.linkedin.com/in/dionsatcher/'
+                  target='_blank'
+                  rel='noreferrer'
+                  role='button'>
+                  <img
+                    className='linkedin_image'
+                    src={linkedin_logo}
+                    alt='Linkedin'
+                    width='40'
+                    height='40'
+                  />
+                </a>
+                <a
+                  className='btn github-link d-flex align-items-center justify-content-center'
+                  href='https://github.com/DionSat'
+                  target='_blank'
+                  rel='noreferrer'
+                  role='button'>
+                  <img
+                    className='github_image'
+                    src={git_logo}
+                    alt='GitHub'
+                    width='25'
+                    height='25'
+                  />
+                </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

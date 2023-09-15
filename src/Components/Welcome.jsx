@@ -13,7 +13,7 @@ export default function Welcome({ id }) {
             <span className='circle yellow'></span>
             <span className='circle green'></span>
           </div>
-          <div className='title'>bash -- 70x32</div>
+          <div className='title'>Terminal</div>
         </div>
         <pre className='body d-flex flex-column align-items-center justify-content-center'>
           <p id='my_name'>Dion Satcher</p>
@@ -27,8 +27,8 @@ export default function Welcome({ id }) {
           />
           <div className='text_intro'>
             <p class='typing text-wrap'>
-              {"> "}Hello, I'm a current graduate student at PSU. Pursuing
-              interests in webdevelopment, and security.
+              {"> "}Hello, I'm a recent graduate student. Pursuing
+              interests in webdevelopment, and software development.
             </p>
           </div>
         </pre>

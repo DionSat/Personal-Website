@@ -32,17 +32,9 @@ export default function Projects({ id }) {
               </p>
               <p className='deck_info pt-4'>
                 A water reuse database to show the regulations and permits
-                required, and the pathways in which water can be reused and what
-                channels it sources from and ends up.
+                required, and the pathways in which water can be reused.
               </p>
               <div className='w-100 d-flex align-items-center justify-content-center'>
-                {/* <a
-                  className='btn visit_button d-flex align-items-center justify-content-center'
-                  href='https://www.waterreuseapp.org/'
-                  target='_blank'
-                  role='button'>
-                  Visit Here
-                </a> */}
                 <a
                   className='btn git_button d-flex align-items-center justify-content-center'
                   href='https://github.com/DionSat/Water-Reuse-App'
@@ -77,14 +69,13 @@ export default function Projects({ id }) {
               </p>
               <p className='deck_info pt-4'>
                 A deck of cards simulator that uses an open source API that
-                simulates a deck to play games. We use that deck to simulate 
-                game rules using javascript. Right now can play the game of
-                blackjack.
+                simulates a deck of playing card. Then we implement blackjack 
+                game rules using javascript.
               </p>
               <div className='w-100 d-flex align-items-center justify-content-center'>
                 <a
                   className='btn visit_button d-flex align-items-center justify-content-center'
-                  href='https://deck-of-card-blackjack.herokuapp.com/'
+                  href='https://dionsat.github.io/Deck-Of-Cards/'
                   target='_blank'
                   rel='noreferrer'
                   role='button'>

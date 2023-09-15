@@ -1,5 +1,4 @@
 import React from "react";
-import pcc_logo from "../Images/PCC.png";
 import psu_logo from "../Images/PSU.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -18,42 +17,6 @@ export default function Experience({ id }) {
         <Col xs={12} xxl={4} xl={6}>
           <div className='scroll-bginfo'>
             <h1 className='education_title pb-3 text-center'>Education</h1>
-            <div className='mt-5'>
-              <div className='d-flex'>
-                <img
-                  src={psu_logo}
-                  className='psu-logo'
-                  alt='Portland State University'
-                  width='100'
-                  height='100'></img>
-                <h2 className='education_text d-flex align-items-center'>
-                  Bachelors of Computer Science
-                </h2>
-              </div>
-              <a
-                href='https://www.pdx.edu/'
-                target='_blank'
-                rel='noreferrer'
-                className='text-decoration-none d-flex justify-content-center mb-3'>
-                Portland State University
-              </a>
-              <div className='d-flex flex-column'>
-                <div className='d-flex justify-content-center'>
-                  <i class='fa fa-calendar' aria-hidden='true'></i>
-                  <p className=''>09/2017 - 12/2021</p>
-                </div>
-                <div className='d-flex justify-content-center'>
-                  <i class='fa-solid fa-location-dot'></i>
-                  <p className=''>Portland, Oregon, USA</p>
-                </div>
-              </div>
-              <div className='d-flex flex-column'>
-                <div className='d-flex justify-content-center'>
-                  <p className=''>Graduated with a cumulative 3.53 GPA</p>
-                </div>
-              </div>
-            </div>
-            {/*Next Section*/}
             <div className='mt-4'>
               <div className='d-flex'>
                 <img
@@ -76,11 +39,16 @@ export default function Experience({ id }) {
               <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-center'>
                   <i class='fa fa-calendar' aria-hidden='true'></i>
-                  <p className=''>01/2022 - present</p>
+                  <p className=''>01/2022 - 08/2023</p>
                 </div>
                 <div className='d-flex justify-content-center'>
                   <i class='fa-solid fa-location-dot'></i>
                   <p className=''>Portland, Oregon, USA</p>
+                </div>
+              </div>
+              <div className='d-flex flex-column'>
+                <div className='d-flex justify-content-center'>
+                  <p className=''>Graduated with a cumulative 3.9 GPA</p>
                 </div>
               </div>
             </div>
@@ -88,30 +56,35 @@ export default function Experience({ id }) {
             <div className='mt-5'>
               <div className='d-flex'>
                 <img
-                  src={pcc_logo}
-                  className='pcc-logo'
-                  alt='Portland Community College'
+                  src={psu_logo}
+                  className='psu-logo'
+                  alt='Portland State University'
                   width='100'
                   height='100'></img>
                 <h2 className='education_text d-flex align-items-center'>
-                  Associates of Science for Computer Science
+                  Bachelors of Computer Science
                 </h2>
               </div>
               <a
-                href='https://www.pcc.edu/'
+                href='https://www.pdx.edu/'
                 target='_blank'
                 rel='noreferrer'
                 className='text-decoration-none d-flex justify-content-center mb-3'>
-                Portland Community College
+                Portland State University
               </a>
               <div className='d-flex flex-column'>
                 <div className='d-flex justify-content-center'>
                   <i class='fa fa-calendar' aria-hidden='true'></i>
-                  <p className=''>09/2017 - 12/2021</p>
+                  <p className=''>09/2017 - 12/2020</p>
                 </div>
                 <div className='d-flex justify-content-center'>
                   <i class='fa-solid fa-location-dot'></i>
                   <p className=''>Portland, Oregon, USA</p>
+                </div>
+              </div>
+              <div className='d-flex flex-column'>
+                <div className='d-flex justify-content-center'>
+                  <p className=''>Graduated with a cumulative 3.53 GPA</p>
                 </div>
               </div>
             </div>
