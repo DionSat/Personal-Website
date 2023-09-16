@@ -195,6 +195,10 @@ body {
   width: 100%;
 }
 
+.my_contacts {
+  width: 100%;
+}
+
 .deck_desc {
   font-size: 18px;
 }
@@ -233,4 +237,11 @@ body {
 
 .send_button {
   width: 100%;
+}
+
+.contact_container {
+  padding: 4px;
+  max-width: 600px;
+  border-radius: 10px;
+  font-size: 24px;
 }
