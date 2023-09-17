@@ -2,6 +2,8 @@ import React from "react";
 import water_image from "../Images/water.png";
 import deck_image from "../Images/blackjack.png";
 import git_logo from "../Images/github.png";
+import pipeline_image from "../Images/pipeline.png";
+import database_image from "../Images/rust_database.png";
 import trivia_image from "../Images/trivia.png";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -26,7 +28,7 @@ export default function Projects({ id }) {
                 height='100%'></img>
               <h2 className='pt-4'>Water Reuse Application</h2>
               <p className='text-primary deck_desc pt-4'>
-                Worked in a 7 person team design for my capstone project as the
+                Worked in a 8 person team design for my capstone project as the
                 team lead. We used laravel, PHP, Javascript, Node.js, mySQL,
                 HTML, CSS, Bootstrap, BalkanJS for our graphing API and Trello.
               </p>
@@ -69,7 +71,7 @@ export default function Projects({ id }) {
               </p>
               <p className='deck_info pt-4'>
                 A deck of cards simulator that uses an open source API that
-                simulates a deck of playing card. Then we implement blackjack 
+                simulates a deck of playing card. Implements blackjack 
                 game rules using javascript.
               </p>
               <div className='w-100 d-flex align-items-center justify-content-center'>
@@ -125,6 +127,81 @@ export default function Projects({ id }) {
                 <a
                   className='btn git_button d-flex align-items-center justify-content-center'
                   href='https://github.com/DionSat/trivia_application'
+                  target='_blank'
+                  rel='noreferrer'
+                  role='button'>
+                  <img
+                    className='button_image'
+                    src={git_logo}
+                    alt='GitHub'
+                    width='90'
+                    height='90'
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </Col>
+        <Col xl={6} lg={12}>
+          <div className='project_container container'>
+            <div className='my_projects p-4'>
+              <img
+                src={pipeline_image}
+                className='pipeline-image'
+                alt='Trimet Data Pipeline Diagram'
+                width='100%'
+                height='100%'></img>
+              <h2 className='pt-4'>Trimet Data Pipeline</h2>
+              <p className='text-primary deck_desc pt-4'>
+                Worked in a 2 person team to process TriMet Sensor data through a data pipeline.
+                Using Python to make the pipeline, Pandas to validate the data and PostgreSQL to
+                store the data and integrate new data.
+              </p>
+              <p className='deck_info pt-4'>
+                A data pipeline to validate, store, integrate and display data. The goal was 
+                to go through each step then convert the data to GeoJSON to later be visualized 
+                through a MapBox API as a Heatmap.
+              </p>
+              <div className='w-100 d-flex align-items-center justify-content-center'>
+                <a
+                  className='btn git_button d-flex align-items-center justify-content-center'
+                  href='https://github.com/DionSat/de-project1'
+                  target='_blank'
+                  rel='noreferrer'
+                  role='button'>
+                  <img
+                    className='button_image'
+                    src={git_logo}
+                    alt='GitHub'
+                    width='90'
+                    height='90'
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </Col>
+        <Col xl={6} lg={12}>
+          <div className='project_container container'>
+            <div className='my_projects p-4'>
+              <img
+                src={database_image}
+                className='database-image'
+                alt='Rust Database Repository'
+                width='100%'
+                height='100%'></img>
+              <h2 className='pt-4'>Rust Database</h2>
+              <p className='text-primary deck_desc pt-4'>
+                Worked solo to parse and implement postgreSQL in Rust using Nom crate.
+              </p>
+              <p className='deck_info pt-4'>
+                A postgreSQL frontend to parsing and executing queries. It has the ability to parse CREATE, 
+                DROP, INSERT, and SELECT queries. With limited functionality on the CREATE and SELECT implemented.
+              </p>
+              <div className='w-100 d-flex align-items-center justify-content-center'>
+                <a
+                  className='btn git_button d-flex align-items-center justify-content-center'
+                  href='https://gitlab.cecs.pdx.edu/dion/rust-database'
                   target='_blank'
                   rel='noreferrer'
                   role='button'>
