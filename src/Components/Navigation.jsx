@@ -13,7 +13,7 @@ export default class Navigation extends Component {
     return (
       <Navbar fixed='top' bg='light' expand='lg'>
         <Container className='nav_container'>
-          <Navbar.Brand href='welcome' className='nav_brand font-monospace'>
+          <Navbar.Brand href='/' className='nav_brand font-monospace'>
             Dion Satcher
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />

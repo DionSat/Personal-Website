@@ -93,24 +93,24 @@ export default function Experience({ id }) {
         <Col xs={12} xxl={4} xl={6}>
           <div className='scroll-courseinfo col-sm-12 col-lg-12 col-xl-12'>
             <h1 className='education_title pb-3 d-flex justify-content-center'>
-              Courses
+              Skills
             </h1>
             <div className='course_list d-flex flex-column align-items-center'>
-              <p>CS441 Artificial Intelligence</p>
-              <p>CS444 Machine Learning</p>
-              <p>CS441 Artificial Intelligence</p>
-              <p>CS454 Software Engineering</p>
-              <p>CS311</p>
-              <p>Stats 451</p>
-              <p>CS410P Advanced Java</p>
-              <p>CS586 Intro to Databases</p>
+              <p>Software Development Life Cycle (SDLC)</p>
+              <p>Team Player</p>
+              <p>Feature Development Full-stack</p>
+              <p>Front End Development</p>
+              <p>Backend Development</p>
+              <p>Team Planning</p>
+              <p>Problem Solving</p>
+              <p>Detail Oriented</p>
             </div>
           </div>
         </Col>
         <Col xs={12} xxl={4} xl={12}>
           <div className='skill_container col-sm-12 col-lg-12 col-xl-12'>
             <h1 className='education_title pb-3 d-flex justify-content-center'>
-              Skills
+              Technical Skills
             </h1>
             <div className='d-flex flex-column m-4'>
               <div>
@@ -142,7 +142,7 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
+                <span className='fa fa-star checked'></span>
                 Javascript
               </div>
               <div>
@@ -150,8 +150,16 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                HTML/CSS
+                <span className='fa fa-star checked'></span>
+                HTML
+              </div>
+              <div>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                CSS
               </div>
               <div>
                 <span className='fa fa-star checked'></span>
@@ -165,9 +173,9 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
-                Laravel/PHP
+                <span className='fa fa-star'></span>
+                PHP
               </div>
               <div>
                 <span className='fa fa-star checked'></span>
@@ -175,7 +183,15 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
-                Project Management
+                Laravel
+              </div>
+              <div>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star'></span>
+                Agile/Scrum
               </div>
               <div>
                 <span className='fa fa-star checked'></span>
@@ -184,6 +200,30 @@ export default function Experience({ id }) {
                 <span className='fa fa-star checked'></span>
                 <span className='fa fa-star'></span>
                 React
+              </div>
+              <div>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                Git
+              </div>
+              <div>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star'></span>
+                Google Cloud
+              </div>
+              <div>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star checked'></span>
+                <span className='fa fa-star'></span>
+                Docker
               </div>
             </div>
           </div>
