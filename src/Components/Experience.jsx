@@ -112,119 +112,21 @@ export default function Experience({ id }) {
             <h1 className='education_title pb-3 d-flex justify-content-center'>
               Technical Skills
             </h1>
-            <div className='d-flex flex-column m-4'>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                <span className='fa fa-star'></span>
-                C++/C
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                Java
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                Python
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                Javascript
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                HTML
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                CSS
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                Microsoft Word
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                <span className='fa fa-star'></span>
-                PHP
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                Laravel
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                Agile/Scrum
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                React
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                Git
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                Google Cloud
-              </div>
-              <div>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star checked'></span>
-                <span className='fa fa-star'></span>
-                Docker
-              </div>
+            <div className='d-flex flex-column m-4 align-items-center'>
+              <p>C++/C</p>
+              <p>Java</p>
+              <p>Javascript</p>
+              <p>PHP</p>
+              <p>Laravel</p>
+              <p>Python</p>
+              <p>Rust</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>React</p>
+              <p>Agile/Scrum</p>
+              <p>Git</p>
+              <p>Google Cloud</p>
+              <p>Docker</p>
             </div>
           </div>
         </Col>
